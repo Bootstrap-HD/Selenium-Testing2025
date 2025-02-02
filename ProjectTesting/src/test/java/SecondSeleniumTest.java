@@ -65,7 +65,6 @@ public class SecondSeleniumTest {
        // wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@class='category-2']")));
 
         assertTrue(driver.findElement(By.xpath("//*[@class='category-2']")).isDisplayed());
-
         driver.quit();
     }
 }
